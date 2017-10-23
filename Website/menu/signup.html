@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Sign up - Website</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+
+		<script type = "text/javascript" >
+			function validate()
+			{		
+				var fname = document.forms["signUp"]["Name"].value;
+				if(fname == null || fname =="")
+					{
+					alert("Name field can't be blank");
+					document.forms["signUp"]["Name"].focus;
+					return false;
+				}
+				var cont = document.forms["signUp"]["contact"].value;
+				if(cont == null || cont =="")
+					{
+					alert("Please enter your contact number");
+					return false;
+				}
+				var mail = document.forms["signUp"]["email"].value;
+				if(mail == null || mail =="")
+					{
+					alert("Please enter a valid email address");
+					return false;
+				}
+				var pass1 = document.forms["signUp"]["pass"].value;
+				if(pass1 == null || pass2 =="")
+					{
+					alert("Please Enter a password");
+					return false;
+				}
+				var pass2 = document.forms["signUp"]["repass"].value;
+				if(pass2 == null || pass2 =="")
+					{
+					alert("Re-Enter your password");
+					return false;
+				}
+				if(pass1!=pass2){
+					alert("Password didn't match");
+					return false;
+				}
+			
+					
+			}
+		
+		</script>
+	</head>
+
+	<body>
+
+	<center>		
+		<h2>Sign up</h2><hr>
+
+		<form name="signUp" onsubmit="return validate()">
+		<table>		
+		<tr><td>Name </td><td>: </td><td><input type="text" name="Name" size="15"></td></tr>
+
+		
+		<tr> <td>Address </td><td>: </td><td><textarea rows="5" cols="30" name="about"></textarea></td></tr>
+
+
+		<tr><td>E-Mail </td><td>: </td><td><input type="text" name="email" value=""> @ <select><option>gmail.com</option>
+		<option>hotmail.com</option><option>yahoo.com</option></select></td></tr>
+
+
+		<tr><td>Contact </td><td>: </td><td><input type="text" name="contact" size="12" maxlength="10"></td></tr>
+
+
+		<tr><td>Birthdate </td><td>: </td><td><input type="date" name="bday"></td></tr>
+
+
+		<tr><td>Gender </td><td>: </td><td><input type="radio" name="gender" value="male"> Male
+ <input type="radio" name="gender" value="female">Female </td></tr>
+
+
+		<tr><td>Password </td><td>: </td><td><input type="password" name="pass" size="25"></td></tr>
+
+
+		<tr><td>Re-Enter Password </td><td>: </td><td><input type="password" name="repass" size="25"></td></tr>
+	
+
+		<tr><td>Upload photo </td><td>: </td><td><input type="file" name="fileupload" accept="image/*"></td></tr>
+		
+	
+		<tr><td><input type="submit" name="submit" value="SIGN UP">&nbsp; <input type="reset" name="reset" value="RESET"></td><td></td>
+</tr>
+		</table>
+		</form><hr>
+
+	</center>	
+
+	</body>
+</html>

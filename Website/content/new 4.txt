@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<style>
+			body{
+					margin : 20px 50px 20px 50px;
+					color : #393939;
+					font-family : 'Lucida Sans Unicode';
+					font-size : 17px;
+			}
+			h1{
+				margin : 0;
+				background : black;
+				color : white;
+			}
+			h2{
+				margin : 0;
+			}
+			p{
+				text-align : justify;
+				text-indent : 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<center><h2>Sharpen your skills with our tutorials.<h2></center><br>
+		<table>
+		<td><center><h1>HTML<h1></center>
+		<p>HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+		Hypertext refers to the way in which Web pages (HTML documents) are linked together.
+		Thus, the link available on a webpage is called Hypertext.
+		As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
+		Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers.
+		Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.</p></td>
+		<td><center><h1>CSS<h1></center>
+		<p>Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
+		CSS handles the look and feel part of a web page.
+		Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used,
+		layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.
+		CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document.
+		Most commonly, CSS is combined with the markup languages HTML or XHTML.</p></td>
+		<td><center><h1>Java<h1></center>
+		<p>Java programming language was originally developed by Sun Microsystems which was initiated by James Gosling and released in 1995 as core component of Sun Microsystems' Java platform (Java 1.0 [J2SE]).
+		The latest release of the Java Standard Edition is Java SE 8. With the advancement of Java and its widespread popularity, multiple configurations were built to suit various types of platforms. For example: J2EE for Enterprise Applications, J2ME for Mobile Applications.
+		The new J2 versions were renamed as Java SE, Java EE, and Java ME respectively. Java is guaranteed to be Write Once, Run Anywhere.
+		Java is - 
+		<ul>
+		<li><b>Object Oriented</b> - In Java, everything is an Object. Java can be easily extended since it is based on the Object model.</li>
+		<li><b>Platform Independent</b> - Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.</li>
+		<li><b>Simple</b> - Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.</li>
+		<li><b>Secure</b> - With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.</li>
+		<li><b>Architecture-neutral</b> - Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, with the presence of Java runtime system.</li>
+		<li><b>Portable</b> - Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.</li>
+		<li><b>Robust</b> - Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.</li>
+		<li><b>Multit/tdeaded</b> - With Java's multit/tdeaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.</li>
+		<li><b>Interpreted</b> - Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and light-weight process.</li>
+		<li><b>High Performance</b> - With the use of Just-In-Time compilers, Java enables high performance.</li>
+		<li><b>Distributed</b> - Java is designed for the distributed environment of the internet.</li>
+		<li><b>Dynamic</b> - Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time</li></p></td>
+		</table>
+
+
+
+	</body>
+</html>
